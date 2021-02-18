@@ -9,7 +9,7 @@ body {
 }
 
 .title {
-  margin-bottom: -80px;
+  margin-bottom: -120px;
 }
 
 .pyramid {
@@ -31,14 +31,18 @@ body {
   text-align:center;
   
 }
+.container {
+  width: 100%;
+  text-align: center;
+}
 
 /* Css ruleset for triangle */
 .zone:nth-child(1) {
   width: 0; 
   height: 0; 
-  border-left: 70px solid transparent;
-  border-right: 70px solid transparent;
-  border-bottom: 80px solid #FF4136;
+  border-left: 55px solid transparent;
+  border-right: 55px solid transparent;
+  border-bottom: 60px solid #FF4136;
   display: flex;
   position: relative;
   justify-content: center;
@@ -51,11 +55,13 @@ body {
   text-align: center;
   background-color: #FF4136;
 	height: var(--firstTrap-height);
-	width: 130px; 
+	width: 100px; 
   margin: 20px auto;
   margin-top: 0px;
   margin-bottom: -5px;
   position: relative;
+  align-content: center;
+  justify-content:center;
   /* margin-top: 0px; */
 }
 
@@ -87,10 +93,12 @@ body {
   text-align: center;
   background-color: #a58711;
 	height: var(--trapezium-height);
-	width: 250px; 
+	width: 220px; 
   margin: 20px auto;
   margin-bottom: -5px;
   position: relative;
+   align-content: center;
+  justify-content:center;
   /* margin-top: 0px; */
 }
 
@@ -120,10 +128,12 @@ body {
   text-align: center;
   background-color: #e7f52b ;
 	height: var(--trapezium-height);
-	width: 420px; 
+	width: 380px; 
   margin: 20px auto;
   margin-bottom: -20px;
   position: relative;
+   align-content: center;
+  justify-content:center;
   /* margin-top: 0px; */
 }
 
@@ -153,10 +163,12 @@ body {
   text-align: center;
   background-color: #094aac ;
 	height: var(--trapezium-height);
-	width: 560px; 
+	width: 515px; 
   margin: 20px auto;
   margin-bottom: -20px;
   position: relative;
+   align-content: center;
+  justify-content:center;
   /* margin-top: 0px; */
 }
 
@@ -186,10 +198,12 @@ body {
   text-align: center;
   background-color: #423e08 ;
 	height: var(--trapezium-height);
-	width: 700px; 
+	width: 655px; 
   margin: 20px auto;
   margin-bottom: -20px;
   position: relative;
+   align-content: center;
+  justify-content:center;
   /* margin-top: 0px; */
 }
 
@@ -219,9 +233,11 @@ body {
   text-align: center;
   background-color: #26c95c ;
 	height: var(--trapezium-height);
-	width: 840px; 
+	width: 795px; 
   margin: 20px auto;
   position: relative;
+  align-content: center;
+  justify-content:center;
   /* margin-top: 0px; */
 }
 
@@ -251,65 +267,62 @@ body {
   font-family: monospace;
 }
 
-.interactBtn {
-  display: inline;
-  border-radius: 50%;
-  border: 2px solid;
-  font-size: 20px;
-  background-color: white;
+
+
+
+
+
+#dec {
+  padding: 4px 6px;
+  margin-right: 5px;
+  width: 25px;
+  border-radius:10px;
+  background-color: rgb(244, 244, 244);
+  justify-content: center;
 }
 
-.interactBtn::before, .interactBtn::after {
-
-  content: '\200B';
-  display: inline-block;
-  line-height: 0px;
-  padding-top: 50%;
-  padding-bottom: 50%;
+#inc {
+  padding: 4px 6px;
+  margin-left: 5px;
+  width: 25px;
+  border-radius:10px;
+  background-color: rgba(29, 236, 91, 0.582);
+  justify-items: center;
 }
 
-.interactBtn::before {
-  padding-left: 0.3rem;
+#quantity {
+  padding: 4px 6px;
+  /* margin-left: 5px; */
+  width: 30px;
+  height: 40px;
+  text-align: center;
 }
-
-.interactBtn::after {
-  padding-right: 0.3rem;
-}
-
-/* .interactBtn:nth-child(1) {
-  margin-top: 20%;
+/* .btn-inc {
+  ;
 } */
-.topBtns {
-  margin-top: -30px;
-}
-/* .interactBtn1 {
-  display: inline;
-  border-radius: 50%;
-  border: 2px solid;
-  font-size: 20px;
-  background-color: white;
-  margin: -20px;
+.trap1{
+  padding-top: -45px;
 }
 
-.interactBtn1::before, .interactBtn1::after {
-
-  content: '\200B';
-  display: inline-block;
-  line-height: 0px;
-  padding-top: 50%;
-  padding-bottom: 50%;
+.hide {
+  display: none;
 }
 
-.interactBtn1::before {
-  padding-left: 0.3rem;
+
+.adults, .children {
+  padding: 2px 3px;
+  width: 200px;
+  margin: 10px;
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 1px #000 solid;
+  text-align: center;
 }
 
-.interactBtn1::after {
-  padding-right: 0.3rem;
-} */
 
-.trap {
+.trap1 {
   padding-top: 20px;
-}
+} 
 
 
